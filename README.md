@@ -2,7 +2,14 @@
 
 ## Installation
 
-    python -m pip install /path/to/pklmpl
+```
+    git clone https://github.com/rocheseb/pklmpl
+    python -m pip install pklmpl
+```
+
+OR
+
+    pip install git+https://github.com/rocheseb/pklmpl
 
 ## Usage
 
