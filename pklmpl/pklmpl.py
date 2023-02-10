@@ -44,7 +44,7 @@ def main():
     parser.add_argument("path", help="full path to the pickle file")
     parser.add_argument(
         "-m",
-        "mode",
+        "--mode",
         choices=["open", "png"],
         default="open",
         help="one of [open,png], use to either open up the figure or save it to a png",
