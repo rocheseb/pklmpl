@@ -16,12 +16,12 @@ OR
 ### Save figure
 
 ```
-import pklmpl
+from pklmpl.pklmpl import pickle_mpl_figure
 from matplotlib import pylab
 
 fig, ax = pylab.subplots()
     
-pklmpl.pickle_mpl_figure(fig,"matplotlib_figure.pickle")
+pickle_mpl_figure(fig,"matplotlib_figure.pickle")
 ```
 
 ### Open saved figure
@@ -29,9 +29,9 @@ pklmpl.pickle_mpl_figure(fig,"matplotlib_figure.pickle")
 #### within a python script
 
 ```
-import pklmpl
+from pklmpl.pklmpl import open_pickled_mpl_figure
     
-pklmpl.open_pickled_mpl_figure("matplotlib_figure.pickle")
+open_pickled_mpl_figure("matplotlib_figure.pickle")
 ```
 
 #### with the console entry point
